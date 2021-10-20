@@ -10,6 +10,7 @@ contract MultiSig {
         uint amount;
         bool signedByOwnerOne;
         bool signedByOwnerTwo;
+        bool rejected;
     }
     Transaction[] public transactions;
     
@@ -48,6 +49,8 @@ contract MultiSig {
         withdraw(_id);
     }
     
+    
+    
     function withdraw (uint _id) private{
         require (_id < transactions.length);
         require(address(this).balance >= transactions[_id].amount);
@@ -55,6 +58,11 @@ contract MultiSig {
         require(transactions[_id].amount != 0);
             transactions[_id].to.transfer(transactions[_id].amount);
             transactions[_id].amount = 0;
+    }
+    
+    function reject (uint _id) public onlyOwner {
+         require (_id < transactions.length);
+         transactions[_id].rejected = true;
     }
     
     fallback() external payable{}
@@ -70,4 +78,5 @@ contract MultiSig {
         
 }
 
+//ToDo move id check to modifier, clean code
 
