@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/multisig-wallet/static/css/main.a617e044.chunk.css",
-    "main.js": "/multisig-wallet/static/js/main.02d9426b.chunk.js",
-    "main.js.map": "/multisig-wallet/static/js/main.02d9426b.chunk.js.map",
-    "runtime-main.js": "/multisig-wallet/static/js/runtime-main.c69ca2f3.js",
-    "runtime-main.js.map": "/multisig-wallet/static/js/runtime-main.c69ca2f3.js.map",
-    "static/js/2.6a757475.chunk.js": "/multisig-wallet/static/js/2.6a757475.chunk.js",
-    "static/js/2.6a757475.chunk.js.map": "/multisig-wallet/static/js/2.6a757475.chunk.js.map",
-    "static/js/3.6deacc9f.chunk.js": "/multisig-wallet/static/js/3.6deacc9f.chunk.js",
-    "static/js/3.6deacc9f.chunk.js.map": "/multisig-wallet/static/js/3.6deacc9f.chunk.js.map",
+    "main.js": "/multisig-wallet/static/js/main.867f65a4.chunk.js",
+    "main.js.map": "/multisig-wallet/static/js/main.867f65a4.chunk.js.map",
+    "runtime-main.js": "/multisig-wallet/static/js/runtime-main.5c653c64.js",
+    "runtime-main.js.map": "/multisig-wallet/static/js/runtime-main.5c653c64.js.map",
+    "static/js/2.c900cdb5.chunk.js": "/multisig-wallet/static/js/2.c900cdb5.chunk.js",
+    "static/js/2.c900cdb5.chunk.js.map": "/multisig-wallet/static/js/2.c900cdb5.chunk.js.map",
+    "static/js/3.8cc743ef.chunk.js": "/multisig-wallet/static/js/3.8cc743ef.chunk.js",
+    "static/js/3.8cc743ef.chunk.js.map": "/multisig-wallet/static/js/3.8cc743ef.chunk.js.map",
     "index.html": "/multisig-wallet/index.html",
     "static/css/main.a617e044.chunk.css.map": "/multisig-wallet/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.6a757475.chunk.js.LICENSE.txt": "/multisig-wallet/static/js/2.6a757475.chunk.js.LICENSE.txt"
+    "static/js/2.c900cdb5.chunk.js.LICENSE.txt": "/multisig-wallet/static/js/2.c900cdb5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c69ca2f3.js",
-    "static/js/2.6a757475.chunk.js",
+    "static/js/runtime-main.5c653c64.js",
+    "static/js/2.c900cdb5.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.02d9426b.chunk.js"
+    "static/js/main.867f65a4.chunk.js"
   ]
 }
