@@ -1,4 +1,7 @@
-export const ADDRESS = "0x7c3A6689Ec6905832c5AF5AF281d8eD7Db370764"
+
+
+
+export const ADDRESS = "0x93D50E3e5D9Ef79C0e6f0AA8E7a12E83E161A94B"
 export const ABI = [
 	{
 		"inputs": [
@@ -104,6 +107,11 @@ export const walletABI = [
 						"internalType": "bool",
 						"name": "signedByOwnerTwo",
 						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "rejected",
+						"type": "bool"
 					}
 				],
 				"internalType": "struct MultiSig.Transaction[]",
@@ -162,6 +170,19 @@ export const walletABI = [
 		"inputs": [
 			{
 				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "reject",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
 				"name": "",
 				"type": "uint256"
 			}
@@ -186,6 +207,11 @@ export const walletABI = [
 			{
 				"internalType": "bool",
 				"name": "signedByOwnerTwo",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "rejected",
 				"type": "bool"
 			}
 		],
